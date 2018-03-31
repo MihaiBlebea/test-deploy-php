@@ -8,11 +8,6 @@ env:
     - "FTP_USER=serbanblebea"
     - "FTP_PASSWORD=highprotein07"
 
-install:
-  - "composer install"
-  
-before_install:
-
 before_script:
   - "composer install"
 
