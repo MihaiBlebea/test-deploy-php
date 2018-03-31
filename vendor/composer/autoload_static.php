@@ -19,6 +19,10 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Test\\' => 5,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -40,6 +44,10 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -66,6 +74,7 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
     );
 
     public static $classMap = array (
+        'App\\Human' => __DIR__ . '/../..' . '/src/Human.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -692,6 +701,7 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
         'SebastianBergmann\\Timer\\RuntimeException' => __DIR__ . '/..' . '/phpunit/php-timer/src/RuntimeException.php',
         'SebastianBergmann\\Timer\\Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Test\\Unit\\HumanTest' => __DIR__ . '/../..' . '/tests/Unit/HumanTest.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',

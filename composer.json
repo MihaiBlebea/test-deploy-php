@@ -4,7 +4,16 @@
     },
     "autoload": {
         "psr-4": {
-        	"App\\": "src/"
+        	"App\\": "src/",
+        	"Test\\": "tests/"
         }
+    },
+    "scripts": {
+        "phpunit": "./vendor/phpunit/phpunit/phpunit",
+        "phpunit-windows": "php @phpunit"
+    },
+    "scripts-descriptions": {
+        "phpunit": "Run phpunit for MacOS",
+        "phpunit-windows": "Run phpunit for Windows"
     }
 }
