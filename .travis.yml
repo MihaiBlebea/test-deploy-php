@@ -17,4 +17,4 @@ script:
   - "composer phpunit"
 
 after_success:
-  - "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://192.168.1.23/upload"
+  - "curl --ftp-create-dirs -T deploy-folder -u $FTP_USER:$FTP_PASSWORD ftp://192.168.1.23/upload"
