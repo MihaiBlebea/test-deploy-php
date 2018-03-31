@@ -15,5 +15,16 @@
     "scripts-descriptions": {
         "phpunit": "Run phpunit for MacOS",
         "phpunit-windows": "Run phpunit for Windows"
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "mattketmo/email-checker": "^1.5",
+        "symfony/event-dispatcher": "^4.0",
+        "soundasleep/html2text": "^0.5.0",
+        "symfony/polyfill-mbstring": "^1.7",
+        "php-ai/php-ml": "^0.6.2",
+        "giggsey/libphonenumber-for-php": "^8.9",
+        "google/apiclient": "^2.2",
+        "laravel/scout": "^4.0"
     }
 }
