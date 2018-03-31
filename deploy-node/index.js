@@ -12,8 +12,8 @@ var config = {
     port: process.env.PORT,
     localRoot: __dirname + process.env.LOCAL_ROOT,
     remoteRoot: process.env.REMOTE_ROOT,
-    include: process.env.INCLUDE_FILES,
-    exclude: process.env.EXCLUDE_FILES
+    include: [],
+    exclude: ['.git', 'deploy_node', 'travis.yml', 'tests']
 }
 
 // Deploy files and folders specified in the config.localToot 
