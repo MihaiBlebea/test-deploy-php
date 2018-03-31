@@ -1,0 +1,23 @@
+{
+  "name": "deploy-node",
+  "version": "1.0.0",
+  "description": "A deploy script writen in Node for ftp deploy to server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerbanBlebea/deploy-node.git"
+  },
+  "author": "Serban Blebea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SerbanBlebea/deploy-node/issues"
+  },
+  "homepage": "https://github.com/SerbanBlebea/deploy-node#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "ftp-deploy": "^1.2.2"
+  }
+}
