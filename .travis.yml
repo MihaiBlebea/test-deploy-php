@@ -17,7 +17,7 @@ script:
   - "composer phpunit"
 
 after_success:
-  - "curl -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://90.240.235.222/html/deploy/index.php"
+  - "curl -T * -u $FTP_USER:$FTP_PASSWORD ftp://90.240.235.222/html/deploy/"
 
 branches:
   only:
