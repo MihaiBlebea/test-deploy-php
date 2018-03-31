@@ -1,6 +1,7 @@
 var FtpDeploy = require('ftp-deploy');
 var fs = require('fs');
 require('dotenv').config();
+var cmd=require('node-cmd');
 
 var FTP = new FtpDeploy();
 
@@ -12,8 +13,8 @@ var config = {
     port: process.env.PORT,
     localRoot: __dirname + process.env.LOCAL_ROOT,
     remoteRoot: process.env.REMOTE_ROOT,
-    include: [],
-    exclude: ['.git', 'deploy-node', 'travis.yml', 'tests', 'phpunit']
+    include: ['node-cmd'],
+    exclude: ['.git', 'node_modules', 'travis.yml', 'tests', 'phpunit']
 }
 
 // Deploy files and folders specified in the config.localToot 
