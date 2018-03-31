@@ -4,28 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
+class ComposerStaticInit9709de6ae295bd5f89cb9a73d882248c
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'p' => 
         array (
-            'phpseclib\\' => 10,
             'phpDocumentor\\Reflection\\' => 25,
-        ),
-        'l' => 
-        array (
-            'libphonenumber\\' => 15,
         ),
         'W' => 
         array (
@@ -35,76 +23,10 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
         array (
             'Test\\' => 5,
         ),
-        'S' => 
-        array (
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Component\\Translation\\' => 30,
-            'Symfony\\Component\\Process\\' => 26,
-            'Symfony\\Component\\Finder\\' => 25,
-            'Symfony\\Component\\EventDispatcher\\' => 34,
-            'Symfony\\Component\\Debug\\' => 24,
-            'Symfony\\Component\\Console\\' => 26,
-        ),
-        'P' => 
-        array (
-            'Psr\\SimpleCache\\' => 16,
-            'Psr\\Log\\' => 8,
-            'Psr\\Http\\Message\\' => 17,
-            'Psr\\Container\\' => 14,
-            'Psr\\Cache\\' => 10,
-            'Phpml\\' => 6,
-        ),
-        'M' => 
-        array (
-            'Monolog\\' => 8,
-        ),
-        'L' => 
-        array (
-            'Laravel\\Scout\\' => 14,
-        ),
-        'I' => 
-        array (
-            'Illuminate\\Support\\' => 19,
-            'Illuminate\\Queue\\' => 17,
-            'Illuminate\\Pipeline\\' => 20,
-            'Illuminate\\Pagination\\' => 22,
-            'Illuminate\\Filesystem\\' => 22,
-            'Illuminate\\Database\\' => 20,
-            'Illuminate\\Contracts\\' => 21,
-            'Illuminate\\Container\\' => 21,
-            'Illuminate\\Console\\' => 19,
-            'Illuminate\\Bus\\' => 15,
-        ),
-        'H' => 
-        array (
-            'Html2Text\\' => 10,
-        ),
-        'G' => 
-        array (
-            'GuzzleHttp\\Psr7\\' => 16,
-            'GuzzleHttp\\Promise\\' => 19,
-            'GuzzleHttp\\' => 11,
-            'Google\\Auth\\' => 12,
-            'Giggsey\\Locale\\' => 15,
-        ),
-        'F' => 
-        array (
-            'Firebase\\JWT\\' => 13,
-        ),
-        'E' => 
-        array (
-            'EmailChecker\\' => 13,
-            'Egulias\\EmailValidator\\' => 23,
-        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
-            'Doctrine\\Common\\Inflector\\' => 26,
             'DeepCopy\\' => 9,
-        ),
-        'C' => 
-        array (
-            'Carbon\\' => 7,
         ),
         'A' => 
         array (
@@ -113,19 +35,11 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
     );
 
     public static $prefixDirsPsr4 = array (
-        'phpseclib\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
-        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-        ),
-        'libphonenumber\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -135,157 +49,13 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Symfony\\Component\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation',
-        ),
-        'Symfony\\Component\\Process\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/process',
-        ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/finder',
-        ),
-        'Symfony\\Component\\EventDispatcher\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
-        ),
-        'Symfony\\Component\\Debug\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/debug',
-        ),
-        'Symfony\\Component\\Console\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/console',
-        ),
-        'Psr\\SimpleCache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
-        ),
-        'Psr\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
-        ),
-        'Psr\\Http\\Message\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-        ),
-        'Psr\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'Psr\\Cache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/cache/src',
-        ),
-        'Phpml\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/php-ai/php-ml/src',
-        ),
-        'Monolog\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
-        ),
-        'Laravel\\Scout\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laravel/scout/src',
-        ),
-        'Illuminate\\Support\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/support',
-        ),
-        'Illuminate\\Queue\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/queue',
-        ),
-        'Illuminate\\Pipeline\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/pipeline',
-        ),
-        'Illuminate\\Pagination\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/pagination',
-        ),
-        'Illuminate\\Filesystem\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/filesystem',
-        ),
-        'Illuminate\\Database\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/database',
-        ),
-        'Illuminate\\Contracts\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/contracts',
-        ),
-        'Illuminate\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/container',
-        ),
-        'Illuminate\\Console\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/console',
-        ),
-        'Illuminate\\Bus\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/bus',
-        ),
-        'Html2Text\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/soundasleep/html2text/src',
-        ),
-        'GuzzleHttp\\Psr7\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
-        ),
-        'GuzzleHttp\\Promise\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
-        ),
-        'GuzzleHttp\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
-        ),
-        'Google\\Auth\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/google/auth/src',
-        ),
-        'Giggsey\\Locale\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/giggsey/locale/src',
-        ),
-        'Firebase\\JWT\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
-        ),
-        'EmailChecker\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mattketmo/email-checker/src/EmailChecker',
-        ),
-        'Egulias\\EmailValidator\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
-        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
-        'Doctrine\\Common\\Inflector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
-        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Carbon\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
         'App\\' => 
         array (
@@ -301,32 +71,12 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
-        'G' => 
-        array (
-            'Google_Service_' => 
-            array (
-                0 => __DIR__ . '/..' . '/google/apiclient-services/src',
-            ),
-            'Google_' => 
-            array (
-                0 => __DIR__ . '/..' . '/google/apiclient/src',
-            ),
-        ),
-        'D' => 
-        array (
-            'Doctrine\\Common\\Lexer\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
-            ),
-        ),
     );
 
     public static $classMap = array (
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-        'Google_Service_Exception' => __DIR__ . '/..' . '/google/apiclient/src/Google/Service/Exception.php',
-        'Google_Service_Resource' => __DIR__ . '/..' . '/google/apiclient/src/Google/Service/Resource.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/AssertionFailedError.php',
@@ -848,10 +598,10 @@ class ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit1fbb6f416a6245bac6b82856dd6057f7::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9709de6ae295bd5f89cb9a73d882248c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9709de6ae295bd5f89cb9a73d882248c::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9709de6ae295bd5f89cb9a73d882248c::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit9709de6ae295bd5f89cb9a73d882248c::$classMap;
 
         }, null, ClassLoader::class);
     }
