@@ -17,7 +17,9 @@ script:
   - "composer phpunit"
 
 after_success:
-  - "node deploy-node/index.js"
+  - "cd deploy-node"
+  - "npm install"
+  - "node index.js"
 
 branches:
   only:
