@@ -1,6 +1,25 @@
+language: php
+
+php:
+    - 7.1
+
 env:
   global:
-    - "FTP_USER=user"
-    - "FTP_PASSWORD=password"
+    - "FTP_USER=serbanblebea"
+    - "FTP_PASSWORD=highprotein07"
+
+before_script:
+  - "composer install"
+
+script:
+  - "composer phpunit"
+
 after_success:
-    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile"
+  - "cd deploy-node"
+  - "npm install"
+  - "node index.js"
+
+branches:
+  only:
+    - master
+    - development
