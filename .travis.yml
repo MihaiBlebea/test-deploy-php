@@ -17,7 +17,7 @@ script:
   - "composer phpunit"
 
 after_success:
-  - "curl --ftp-create-dirs -T * -u $FTP_USER:$FTP_PASSWORD ftp://90.240.235.222/html"
+  - "curl -T *.* ftp://$FTP_USER:$FTP_PASSWORD/html"
 
 branches:
   only:
