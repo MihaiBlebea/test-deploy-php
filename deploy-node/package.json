@@ -4,8 +4,7 @@
   "description": "A deploy script writen in Node for ftp deploy to server",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "deploy": "node index.js"
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,9 @@
   },
   "homepage": "https://github.com/SerbanBlebea/deploy-node#readme",
   "dependencies": {
+    "conditional-travis-deploy": "^1.1.0",
     "dotenv": "^5.0.1",
     "ftp-deploy": "^1.2.2"
   }
 }
+

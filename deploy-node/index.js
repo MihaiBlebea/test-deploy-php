@@ -1,8 +1,12 @@
 var FtpDeploy = require('ftp-deploy');
 var fs = require('fs');
+var condDeploy = require('conditional-travis-deploy')
 require('dotenv').config();
 
 var FTP = new FtpDeploy();
+
+
+console.log(condDeploy);
 
 // Create config object, should create env file
 var config = {

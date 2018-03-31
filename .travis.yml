@@ -15,7 +15,6 @@ script:
   - "composer phpunit"
 
 after_success:
-  - "composer install"
   - "cd deploy-node"
   - "npm install"
   - "node index.js"
