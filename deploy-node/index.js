@@ -13,7 +13,7 @@ var config = {
     localRoot: __dirname + process.env.LOCAL_ROOT,
     remoteRoot: process.env.REMOTE_ROOT,
     include: [],
-    exclude: ['.git', 'deploy_node', 'travis.yml', 'tests']
+    exclude: ['.git', 'deploy-node', 'travis.yml', 'tests']
 }
 
 // Deploy files and folders specified in the config.localToot 
