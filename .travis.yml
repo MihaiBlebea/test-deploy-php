@@ -17,7 +17,7 @@ script:
   - "composer phpunit"
 
 after_success:
-  - "curl -u serbanblebea:highprotein07 ftp://192.168.1.23/html/upload"
+  - "curl -u $FTP_USER:$FTP_PASSWORD ftp://90.240.235.222//html/upload"
 
 branches:
   only:
