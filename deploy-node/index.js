@@ -14,7 +14,7 @@ var config = {
     localRoot: __dirname + process.env.LOCAL_ROOT,
     remoteRoot: process.env.REMOTE_ROOT,
     include: ['node-cmd'],
-    exclude: ['.git', 'node_modules', 'travis.yml', 'tests', 'phpunit']
+    exclude: ['.git', 'node_modules', 'travis.yml', 'tests', 'phpunit', 'vendor']
 }
 
 // Deploy files and folders specified in the config.localToot 

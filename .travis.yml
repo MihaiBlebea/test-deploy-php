@@ -18,6 +18,9 @@ after_success:
   - "cd deploy-node"
   - "npm install"
   - "node index.js"
+  - "ssh pi@192.168.1.23"
+  - "cd /var/www/html/deploy"
+  - "composer install"
 
 branches:
   only:
